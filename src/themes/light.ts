@@ -3,6 +3,7 @@ const temaLight = {
   corSecundaria: '#949494',
   corDeFundo: '#fff',
   corDeFundoBotao: '#4476BF',
+  corDeFundoBotaoHover: '#555555',
   corDaBorda: '#C1C1C1',
 }
 
@@ -13,5 +14,6 @@ export type Theme = {
   corSecundaria: string
   corDeFundo: string
   corDeFundoBotao: string
+  corDeFundoBotaoHover: string
   corDaBorda: string
 }
