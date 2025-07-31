@@ -10,6 +10,16 @@ const EstiloGlobal = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  a {
+    text-decoration: none;
+    color: ${(props) => (props.theme as Theme).corDeFundoBotao};
+
+    &:hover {
+      color: ${(props) => (props.theme as Theme).corDeFundoBotaoHover};
+      text-decoration: underline;
+    }
+  }
+
   body {
     padding-top: 80px;
     padding-bottom: 80px;

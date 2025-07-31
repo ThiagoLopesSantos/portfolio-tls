@@ -1,7 +1,8 @@
+import { ReactNode } from 'react'
 import { P } from './styles'
 
 export type Props = {
-  children: string
+  children: ReactNode // Usando o ReactNode para receber qualquer conteúdo dentro do componente
   tipo?: 'principal' | 'secundario'
   fontSize?: number
 }

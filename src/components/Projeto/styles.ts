@@ -14,4 +14,9 @@ export const LinkBotao = styled.a`
   display: inline-block;
   margin-top: 24px;
   cursor: pointer;
+
+  &:hover {
+    background-color: ${(props) => (props.theme as Theme).corDeFundoBotaoHover};
+    color: ${(props) => (props.theme as Theme).corDeFundo};
+  }
 `

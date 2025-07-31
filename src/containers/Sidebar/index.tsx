@@ -13,10 +13,24 @@ const Sidebar = (props: Props) => (
       <Avatar />
       <Titulo fontSize={18}>Thiago Lopes</Titulo>
       <Paragrafo tipo="secundario" fontSize={16}>
-        Perfil no GitHub: thiagolopessantos
+        Engenheiro Front-end
       </Paragrafo>
       <Descricao tipo="principal" fontSize={12}>
-        Engenheiro Front-end
+        <a
+          href="https://github.com/ThiagoLopesSantos"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>{' '}
+        |{' '}
+        <a
+          href="https://www.linkedin.com/in/thiago-lopes-front-end/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
       </Descricao>
       <BotaoTema onClick={props.trocaTema}>Trocar tema: Dark/Light</BotaoTema>
     </SidebarContainer>
