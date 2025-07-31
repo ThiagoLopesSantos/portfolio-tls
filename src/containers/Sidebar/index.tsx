@@ -13,7 +13,7 @@ const Sidebar = (props: Props) => (
       <Avatar />
       <Titulo fontSize={18}>Thiago Lopes</Titulo>
       <Paragrafo tipo="secundario" fontSize={16}>
-        thiagolopessantos
+        Perfil no GitHub: thiagolopessantos
       </Paragrafo>
       <Descricao tipo="principal" fontSize={12}>
         Engenheiro Front-end

@@ -6,13 +6,14 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
     <Paragrafo tipo="secundario">
-      Estou em transição de carreira para o desenvolvimento front-end, e este
-      site foi criado como parte do meu processo de aprendizado e construção de
-      portfólio. Aqui aplico na prática os conhecimentos adquiridos com React,
-      TypeScript e styled-components, focando em uma estrutura de código
-      organizada, componentes reutilizáveis e estilização com tema customizado.
-      Meu objetivo é evoluir constantemente, tanto no design quanto na
-      implementação dos projetos que serão apresentados aqui.
+      Olá! Sou Thiago Lopes, desenvolvedor em transição de carreira com foco em
+      front-end. Estou cursando Desenvolvimento Full Stack Python pela EBAC e
+      venho aprimorando minhas habilidades em React, TypeScript, HTML, CSS e
+      JavaScript. Este site foi criado como portfólio e prática dos meus
+      estudos, com foco em boas práticas, componentização e estilização com
+      styled-components. Meu objetivo é crescer como desenvolvedor front-end e
+      futuramente fullstack, contribuir em projetos reais com soluções criativas
+      e bem estruturadas.
     </Paragrafo>
 
     <GithubSecao>
