@@ -1,12 +1,26 @@
 import Paragrafo from '../Paragrafo'
 import Titulo from '../Titulo'
-import { Card, LinkBotao } from './styles'
+import { Card, GrupoBotoes, LinkBotao } from './styles'
 
-const Projeto = () => (
+type Props = {
+  titulo: string
+  descricao: string
+  url1: string
+  url2: string
+}
+
+const Projeto = ({ titulo, descricao, url1, url2 }: Props) => (
   <Card>
-    <Titulo>Projeto Lista de tarefas</Titulo>
-    <Paragrafo tipo="secundario">Lista de tarefas feita com VueJS</Paragrafo>
-    <LinkBotao>Visualizar</LinkBotao>
+    <Titulo>{titulo}</Titulo>
+    <Paragrafo tipo="secundario">{descricao}</Paragrafo>
+    <GrupoBotoes>
+      <LinkBotao href={url1} target="_blank" rel="noopener noreferrer">
+        Visualizar no GitHub
+      </LinkBotao>
+      <LinkBotao href={url2} target="_blank" rel="noopener noreferrer">
+        Visualizar na Vercel
+      </LinkBotao>
+    </GrupoBotoes>
   </Card>
 )
 
